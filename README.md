@@ -23,3 +23,6 @@ Deve ser possível converter uma palavra para a versão criptografada e também 
 
 Um rodapé com os dados da pessoa que desenvolveu o site;
 
+Utilizado no projeto
+CSS - HTML - JAVASCRIPT
+
