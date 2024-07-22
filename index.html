@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codificador de Texto</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="codificar">
+        <textarea
+          name="texto"
+          class="texto"
+          id="texto"
+          cols="30"
+          rows="10"
+          placeholder="Digite o texto aqui..."
+        ></textarea>
+
+        <div class="alerta">
+          <p>Digite letras minusculas sem acentos.</p>
+        </div>
+        <div class="botoes">
+          <button class="btn-codificar" type="button" onclick="codificar()">
+            Codificar
+          </button>
+          <input
+            type="button"
+            class="btn-descodificar"
+            value="Descodificar"
+            onclick="descodificar()"
+          />
+        </div>
+      </div>
+      <div class="encriptado">
+        <img src="img/boneco.png" alt="" id="boneco" />
+        <div class="texto-codificado" id="texto-codificado">
+          <h2 id="titulo-texto">Texto nao encontrado</h2>
+          <p id="paragrafo">
+            Digite o texto para codificar ou descodificar
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+<footer class="rodape">
+    <div class="icons">
+    <a href="https://www.linkedin.com/in/yuri-nasser"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a href="https://github.com/YuriNasser"><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+    <h3>By Yuri Nasser 2024</h3>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ <script src="script.js"></script>
+</html>
